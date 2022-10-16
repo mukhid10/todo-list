@@ -1,0 +1,14 @@
+.header{
+    height: 105px;
+    background: #16ABF8;
+    box-sizing: border-box;
+}
+
+.header p{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}

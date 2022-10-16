@@ -1,0 +1,37 @@
+.addactivity{
+    background-color: #E5E5E5;
+    width: 100vw;
+    min-height: 87vh;
+    padding-top: 25px;
+}
+
+.filter-activity{
+    height: 54px;
+    width: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #cac8c8;
+    border-radius: 100%;
+}
+
+.activity-add{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: bold;
+}
+
+.addactivity-content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.addactivity-content img{
+    width: 550px;
+    margin-top: 30px;
+}

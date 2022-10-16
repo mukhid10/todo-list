@@ -1,0 +1,64 @@
+#modal{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+#modal-off{
+    display: none;
+}
+
+.content-modal{
+    width: 490px;
+    height: 355px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesan-modal{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.wrapper-btn-modal{
+    width: 100%;
+}
+
+.btn-modal-batal{
+width: 150px;
+height: 54px;
+left: 85px;
+top: 258px;
+color: black;
+background: #F4F4F4;
+border-radius: 45px;
+border: none;
+font-weight: bolder;
+}
+
+.btn-modal-hapus{
+    width: 150px;
+height: 54px;
+left: 255px;
+top: 258px;
+color: #FFFFFF;
+background: #ED4C5C;
+border-radius: 45px;
+border: none;
+font-weight: bolder;
+}
